@@ -6,9 +6,12 @@ const employeeRouter = require('./routes/employeeRoutes')
 let app = express()
 app.use(express.json())
 
-//mongodb+srv://all_user:password321@comp3123.bxzhg.mongodb.net/101203877_assignment2?retryWrites=true&w=majority
 
-mongoose.connect('mongodb+srv://all_user:password321@comp3123.bxzhg.mongodb.net/101203877_assignment2?retryWrites=true&w=majority',
+// INSERT MONGODB CONNECTION URI IN STRING
+//mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb][?options]]
+let db = ''
+
+mongoose.connect(db,
 {
     useNewUrlParser:true,
     useUnifiedTopology: true
