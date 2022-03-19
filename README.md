@@ -20,19 +20,19 @@ the backend API to perform actions such as listing all employees, add employee f
 
 * In ( backend/index.js ) file insert the MongoDB Connection URI into the ( db ) variable
 
-**  let db = ""
+	*  let db = ""
 
 * In the backend folder run command ( npm install )
 
 * in the backend folder run command to start backend app
 
-** node index.js
+	* node index.js
 
 * in the frontend folder run command ( npm install )
 
 * in the frontend folder run command to start frontend app
 
-** yarn start
+	* yarn start
 
 ----------------------------------------
 
@@ -47,10 +47,10 @@ the backend API to perform actions such as listing all employees, add employee f
 
 * CRUD operations on employees with validation
 
-** Add employee
+	* Add employee
 
-** View employee details
+	* View employee details
 
-** Update employee
+	* Update employee
 
-** Delete employee
+	* Delete employee
