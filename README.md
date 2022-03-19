@@ -3,9 +3,9 @@
 
 ###### Description
 
-This project demonstrates the MERN stack by creating two basic apps, the backend and frontend to manipulate an employee model <br/>
-with database storage. The backend will use NodeJS, Express and MongoDB via Mongoose to allow CRUD opeartions on the employee <br/>
-model through REST API endpoints (GET, POST, GET (by ID), PUT (update by ID), and DELETE (by ID)). The frontend will access <br/>
+This project demonstrates the MERN stack by creating two basic apps, the backend and frontend to manipulate an employee model 
+with database storage. The backend will use NodeJS, Express and MongoDB via Mongoose to allow CRUD opeartions on the employee 
+model through REST API endpoints (GET, POST, GET (by ID), PUT (update by ID), and DELETE (by ID)). The frontend will access 
 the backend API to perform actions such as listing all employees, add employee form, update employee form and deleting employees.
 
 ----------------------------------------
